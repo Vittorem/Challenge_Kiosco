@@ -1,17 +1,19 @@
 {
-  "name": "playwright-example",
+  "name": "challenge_kiosco",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:api": "newman run TheDogAPI.postman_collection.json"
 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "playwright": "^1.47.0"
+    "playwright": "^1.47.0",
+    "newman": "^6.2.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.47.0",
